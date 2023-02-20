@@ -1,0 +1,318 @@
+// ------ Font -------
+@font-face {
+    font-family: 'Sharp-Grotesk';
+    src: url("../Font/Sharp/SharpGrotesk-Book20.otf");
+    src: url("../Font/Sharp/SharpGrotesk-Book20.woff2")
+        format("woff2"),
+      url("../Font/Sharp/SharpGrotesk-Book20.woff")
+        format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Sharp-Grotesk';
+    src: url("../Font/Sharp/SharpGrotesk-SemiBold20.otf");
+    src: url("../Font/Sharp/SharpGrotesk-SemiBold20.woff2")
+        format("woff2"),
+      url("../Font/Sharp/SharpGrotesk-SemiBold20.woff")
+        format("woff");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+
+ //cold-grey-fz
+$cold-grey-fz-color-100: #fcfcfd;
+$cold-grey-fz-color-200: #fafafb;
+$cold-grey-fz-color-300: #f2f2f3;
+$cold-grey-fz-color-400: #d6d6db;
+$cold-grey-fz-color-500: #b7b7bf;
+$cold-grey-fz-color-600: #8e8e9b;
+$cold-grey-fz-color-700: #5c5c6f;
+$cold-grey-fz-color-800: #21213b;
+$cold-grey-fz-color-900: #00001e;
+
+//warm-grey-fz
+$warm-grey-fz-color-100: #fffaf5;
+$warm-grey-fz-color-200: #f9f4ef;
+$warm-grey-fz-color-300: #e6e1dd;
+$warm-grey-fz-color-400: #c6c3bf;
+$warm-grey-fz-color-500: #9a9794;
+$warm-grey-fz-color-600: #656361;
+$warm-grey-fz-color-700: #393836;
+$warm-grey-fz-color-800: #191918;
+$warm-grey-fz-color-900: #060606;
+ 
+  html * {
+      font-family: 'Sharp-Grotesk' !important;
+      //font-weight:300;
+      font-feature-settings: "salt" on;
+      color: $cold-grey-fz-color-900;
+  }
+
+
+
+//set the font
+html * {
+  font-family: 'Sharp-Grotesk' !important;
+  //font-weight:300;
+  font-feature-settings: "salt" on;
+  color: $cold-grey-fz-color-900;
+}
+
+hr {
+  border: 2px solid #c6c3bf;
+}
+.row > .col-12 > p {
+  color: #6c7eff;
+}
+.row {
+  max-width: 95%;
+  margin: 2rem auto;
+  .type {
+    padding-bottom: 2rem;
+    .regular {
+      font-weight: 400;
+    }
+  }
+}
+
+//bold class
+strong,
+.bold,
+.strong {
+  font-weight: 600 !important;
+}
+
+//list the span
+.typo span {
+  display: block;
+  padding-bottom: 50px;
+}
+
+// ----> heading <------
+.heading {
+  .large,
+  &.large {
+    font-size: clamp(48px, 44.8px + 1vw, 64px);
+    line-height: 108%;
+    letter-spacing: 0.042em;
+    &.strong,
+    & .strong {
+      letter-spacing: 0.048em;
+    }
+  }
+  .medium,
+  &.medium {
+    font-size: clamp(40px, 36.8px + 1vw, 56px);
+    line-height: 116%;
+    letter-spacing: 0.036em;
+    &.strong,
+    & .strong {
+      letter-spacing: 0.04em;
+    }
+  }
+  .small,
+  &.small {
+    font-size: clamp(32px, 30.4px + 1vw, 40px);
+    line-height: 124%;
+    letter-spacing: 0.024em;
+    &.strong,
+    & .strong {
+      letter-spacing: 0.028em;
+    }
+  }
+}
+
+// ----> title <------
+.title {
+  .xx-large,
+  &.xx-large {
+    font-size: clamp(32px, 28.8px + 1vw, 48px);
+    line-height: 120%;
+    letter-spacing: 0.032em;
+    &.strong,
+    & .strong {
+      letter-spacing: 0.036em;
+    }
+  }
+  .x-large,
+  &.x-large {
+    font-size: clamp(28px, 24px + 0.75vw, 40px);
+    line-height: 124%;
+    letter-spacing: 0.02em;
+    &.strong,
+    & .strong {
+      letter-spacing: 0.024em;
+    }
+  }
+  .large,
+  &.large {
+    font-size: clamp(24px, 22.4px + 0.5vw, 32px);
+    line-height: 132%;
+    letter-spacing: 0.016em;
+    &.strong,
+    & .strong {
+      letter-spacing: 0.02em;
+    }
+  }
+  .medium,
+  &.medium {
+    font-size: clamp(20px, 19.2px + 0.25vw, 24px);
+    line-height: 140%;
+    letter-spacing: 0.012em;
+    &.strong,
+    & .strong {
+      letter-spacing: 0.016em;
+    }
+  }
+  .small,
+  &.small {
+    font-size: clamp(18px, 17.6px + 0.125vw, 20px);
+    line-height: 148%;
+    letter-spacing: 0.008em;
+    &.strong,
+    & .strong {
+      letter-spacing: 0.012em;
+    }
+  }
+  .x-small,
+  &.x-small {
+    font-size: 16px;
+    line-height: 156%;
+    letter-spacing: 0.004em;
+    &.strong,
+    & .strong {
+      letter-spacing: 0.008em;
+    }
+  }
+}
+// ----> paragraph <------
+.paragraph {
+  .large,
+  &.large {
+    font-size: clamp(18px, 17.6px + 0.125vw, 20px);
+    line-height: 156%;
+    letter-spacing: -0.008em;
+    &.strong,
+    & .strong {
+      letter-spacing: -0.004em;
+    }
+  }
+  .medium,
+  &.medium {
+    font-size: clamp(14px, 13.6px + 0.125vw, 16px);
+    line-height: 164%;
+    letter-spacing: -0.004em;
+    &.strong,
+    & .strong {
+      letter-spacing: 0;
+    }
+  }
+  .small,
+  &.small {
+    font-size: clamp(12px, 11.6px + 0.125vw, 14px);
+    line-height: 164%;
+    letter-spacing: 0.002em;
+    &.strong,
+    & .strong {
+      letter-spacing: 0.006em;
+    }
+  }
+  .x-small,
+  &.x-small {
+    font-size: clamp(8px, 7.6px + 0.125vw, 10px);
+    line-height: 172%;
+    letter-spacing: 0.004em;
+    &.strong,
+    & .strong {
+      letter-spacing: 0.01em;
+      font-weight: 600 !important;
+    }
+  }
+}
+
+//button
+.button {
+  margin: 2rem 0;
+  background-color: #6c7eff;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  transition: all 0.35s ease-in-out;
+  color: #fff;
+  max-width: fit-content;
+  border-radius: 2px;
+  & span {
+    color: #fff;
+  }
+
+  &:hover {
+    background-color: #5062e2;
+    cursor: pointer;
+  }
+}
+
+//color
+.color-box {
+  height: 200px;
+  width: 200px;
+}
+.cold-grey-fz-bg-100 {
+  background-color: $cold-grey-fz-color-100;
+}
+.cold-grey-fz-bg-200 {
+  background-color: $cold-grey-fz-color-200;
+}
+.cold-grey-fz-bg-300 {
+  background-color: $cold-grey-fz-color-300;
+}
+.cold-grey-fz-bg-400 {
+  background-color: $cold-grey-fz-color-400;
+}
+.cold-grey-fz-bg-500 {
+  background-color: $cold-grey-fz-color-500;
+}
+.cold-grey-fz-bg-600 {
+  background-color: $cold-grey-fz-color-600;
+}
+.cold-grey-fz-bg-700 {
+  background-color: $cold-grey-fz-color-700;
+}
+.cold-grey-fz-bg-800 {
+  background-color: $cold-grey-fz-color-800;
+}
+.cold-grey-fz-bg-900 {
+  background-color: $cold-grey-fz-color-900;
+}
+
+.warm-grey-fz-bg-100 {
+  background-color: $warm-grey-fz-color-100;
+}
+.warm-grey-fz-bg-200 {
+  background-color: $warm-grey-fz-color-200;
+}
+.warm-grey-fz-bg-300 {
+  background-color: $warm-grey-fz-color-300;
+}
+.warm-grey-fz-bg-400 {
+  background-color: $warm-grey-fz-color-400;
+}
+.warm-grey-fz-bg-500 {
+  background-color: $warm-grey-fz-color-500;
+}
+.warm-grey-fz-bg-600 {
+  background-color: $warm-grey-fz-color-600;
+}
+.warm-grey-fz-bg-700 {
+  background-color: $warm-grey-fz-color-700;
+}
+.warm-grey-fz-bg-800 {
+  background-color: $warm-grey-fz-color-800;
+}
+.warm-grey-fz-bg-900 {
+  background-color: $warm-grey-fz-color-900;
+}
