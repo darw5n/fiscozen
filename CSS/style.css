@@ -34,7 +34,7 @@ hr {
 
 .row {
   max-width: 95%;
-  margin: 2rem auto;
+  margin: 2rem auto !important;
 }
 .row .type {
   padding-bottom: 2rem;
