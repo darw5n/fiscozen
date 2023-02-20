@@ -1,24 +1,27 @@
 // ------ Font -------
 @font-face {
-  font-family: 'Sharp-Grotesk';
-  src: url("../Font/Sharp/SharpGrotesk-Book20.otf");
-  src: url("../Font/Sharp/SharpGrotesk-Book20.woff2") format("woff2"),
-    url("../Font/Sharp/SharpGrotesk-Book20.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
+    font-family: 'Sharp-Grotesk';
+    src: url("../Font/Sharp/SharpGrotesk-Book20.otf");
+    src: url("../Font/Sharp/SharpGrotesk-Book20.woff2")
+        format("woff2"),
+      url("../Font/Sharp/SharpGrotesk-Book20.woff")
+        format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Sharp-Grotesk';
+    src: url("../Font/Sharp/SharpGrotesk-SemiBold20.otf");
+    src: url("../Font/Sharp/SharpGrotesk-SemiBold20.woff2")
+        format("woff2"),
+      url("../Font/Sharp/SharpGrotesk-SemiBold20.woff")
+        format("woff");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
 
-@font-face {
-  font-family: 'Sharp-Grotesk';
-  src: url("../Font/Sharp/SharpGrotesk-SemiBold20.otf");
-  src: url("../Font/Sharp/SharpGrotesk-SemiBold20.woff2") format("woff2"),
-    url("../Font/Sharp/SharpGrotesk-SemiBold20.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-}
-
-
-//cold-grey-fz
+ //cold-grey-fz
 $cold-grey-fz-color-100: #fcfcfd;
 $cold-grey-fz-color-200: #fafafb;
 $cold-grey-fz-color-300: #f2f2f3;
@@ -39,6 +42,7 @@ $warm-grey-fz-color-600: #656361;
 $warm-grey-fz-color-700: #393836;
 $warm-grey-fz-color-800: #191918;
 $warm-grey-fz-color-900: #060606;
+ 
 
 
 //set the font
@@ -52,18 +56,14 @@ html * {
 hr {
   border: 2px solid #c6c3bf;
 }
-
-.row>.col-12>p {
+.row > .col-12 > p {
   color: #6c7eff;
 }
-
 .row {
   max-width: 95%;
   margin: 2rem auto !important;
-
   .type {
     padding-bottom: 2rem;
-
     .regular {
       font-weight: 400;
     }
@@ -78,44 +78,38 @@ strong,
 }
 
 //list the span
-.typo span {
+.typo .regular span, .typo .bold span {
   display: block;
   padding-bottom: 50px;
 }
 
 // ----> heading <------
 .heading {
-
   .large,
   &.large {
     font-size: clamp(48px, 44.8px + 1vw, 64px);
     line-height: 108%;
     letter-spacing: 0.042em;
-
     &.strong,
     & .strong {
       letter-spacing: 0.048em;
     }
   }
-
   .medium,
   &.medium {
     font-size: clamp(40px, 36.8px + 1vw, 56px);
     line-height: 116%;
     letter-spacing: 0.036em;
-
     &.strong,
     & .strong {
       letter-spacing: 0.04em;
     }
   }
-
   .small,
   &.small {
     font-size: clamp(32px, 30.4px + 1vw, 40px);
     line-height: 124%;
     letter-spacing: 0.024em;
-
     &.strong,
     & .strong {
       letter-spacing: 0.028em;
@@ -125,125 +119,106 @@ strong,
 
 // ----> title <------
 .title {
-
   .xx-large,
   &.xx-large {
     font-size: clamp(32px, 28.8px + 1vw, 48px);
     line-height: 120%;
     letter-spacing: 0.032em;
-
     &.strong,
     & .strong {
       letter-spacing: 0.036em;
     }
   }
-
   .x-large,
   &.x-large {
     font-size: clamp(28px, 24px + 0.75vw, 40px);
     line-height: 124%;
     letter-spacing: 0.02em;
-
     &.strong,
     & .strong {
       letter-spacing: 0.024em;
     }
   }
-
   .large,
   &.large {
     font-size: clamp(24px, 22.4px + 0.5vw, 32px);
     line-height: 132%;
     letter-spacing: 0.016em;
-
     &.strong,
     & .strong {
       letter-spacing: 0.02em;
     }
   }
-
   .medium,
   &.medium {
     font-size: clamp(20px, 19.2px + 0.25vw, 24px);
     line-height: 140%;
     letter-spacing: 0.012em;
-
     &.strong,
     & .strong {
       letter-spacing: 0.016em;
     }
   }
-
   .small,
   &.small {
     font-size: clamp(18px, 17.6px + 0.125vw, 20px);
     line-height: 148%;
     letter-spacing: 0.008em;
-
     &.strong,
     & .strong {
       letter-spacing: 0.012em;
     }
   }
-
   .x-small,
   &.x-small {
     font-size: 16px;
     line-height: 156%;
     letter-spacing: 0.004em;
-
     &.strong,
     & .strong {
       letter-spacing: 0.008em;
     }
   }
 }
-
 // ----> paragraph <------
 .paragraph {
-
   .large,
   &.large {
     font-size: clamp(18px, 17.6px + 0.125vw, 20px);
     line-height: 156%;
     letter-spacing: -0.008em;
-
     &.strong,
     & .strong {
       letter-spacing: -0.004em;
     }
   }
-
   .medium,
   &.medium {
     font-size: clamp(14px, 13.6px + 0.125vw, 16px);
     line-height: 164%;
     letter-spacing: -0.004em;
-
     &.strong,
     & .strong {
       letter-spacing: 0;
     }
   }
-
   .small,
   &.small {
     font-size: clamp(12px, 11.6px + 0.125vw, 14px);
     line-height: 164%;
     letter-spacing: 0.002em;
-
     &.strong,
     & .strong {
       letter-spacing: 0.006em;
     }
   }
-
   .x-small,
   &.x-small {
-    font-size: clamp(8px, 7.6px + 0.125vw, 10px);
+    // font-size: clamp(8px, 7.6px + 0.125vw, 10px); //vw max 1920
+    font-size: clamp(8px, 7.36px + 0.175vw, 10px); //vw max 1440
+
     line-height: 172%;
     letter-spacing: 0.004em;
-
     &.strong,
     & .strong {
       letter-spacing: 0.01em;
@@ -266,7 +241,6 @@ strong,
   color: #fff;
   max-width: fit-content;
   border-radius: 2px;
-
   & span {
     color: #fff;
   }
@@ -282,39 +256,30 @@ strong,
   height: 200px;
   width: 200px;
 }
-
 .cold-grey-fz-bg-100 {
   background-color: $cold-grey-fz-color-100;
 }
-
 .cold-grey-fz-bg-200 {
   background-color: $cold-grey-fz-color-200;
 }
-
 .cold-grey-fz-bg-300 {
   background-color: $cold-grey-fz-color-300;
 }
-
 .cold-grey-fz-bg-400 {
   background-color: $cold-grey-fz-color-400;
 }
-
 .cold-grey-fz-bg-500 {
   background-color: $cold-grey-fz-color-500;
 }
-
 .cold-grey-fz-bg-600 {
   background-color: $cold-grey-fz-color-600;
 }
-
 .cold-grey-fz-bg-700 {
   background-color: $cold-grey-fz-color-700;
 }
-
 .cold-grey-fz-bg-800 {
   background-color: $cold-grey-fz-color-800;
 }
-
 .cold-grey-fz-bg-900 {
   background-color: $cold-grey-fz-color-900;
 }
@@ -322,35 +287,27 @@ strong,
 .warm-grey-fz-bg-100 {
   background-color: $warm-grey-fz-color-100;
 }
-
 .warm-grey-fz-bg-200 {
   background-color: $warm-grey-fz-color-200;
 }
-
 .warm-grey-fz-bg-300 {
   background-color: $warm-grey-fz-color-300;
 }
-
 .warm-grey-fz-bg-400 {
   background-color: $warm-grey-fz-color-400;
 }
-
 .warm-grey-fz-bg-500 {
   background-color: $warm-grey-fz-color-500;
 }
-
 .warm-grey-fz-bg-600 {
   background-color: $warm-grey-fz-color-600;
 }
-
 .warm-grey-fz-bg-700 {
   background-color: $warm-grey-fz-color-700;
 }
-
 .warm-grey-fz-bg-800 {
   background-color: $warm-grey-fz-color-800;
 }
-
 .warm-grey-fz-bg-900 {
   background-color: $warm-grey-fz-color-900;
 }

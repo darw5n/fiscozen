@@ -43,7 +43,7 @@ strong,
   font-weight: 600 !important;
 }
 
-.typo span {
+.typo .regular span, .typo .bold span {
   display: block;
   padding-bottom: 50px;
 }
@@ -147,7 +147,7 @@ strong,
   letter-spacing: 0.006em;
 }
 .paragraph .x-small, .paragraph.x-small {
-  font-size: clamp(8px, 7.6px + 0.125vw, 10px);
+  font-size: clamp(8px, 7.36px + 0.175vw, 10px);
   line-height: 172%;
   letter-spacing: 0.004em;
 }
