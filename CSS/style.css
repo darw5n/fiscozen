@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600&display=swap");
 @font-face {
   font-family: "Sharp-Grotesk";
   src: url("../Font/Sharp/SharpGrotesk-Book20.otf");
@@ -12,8 +13,8 @@
   font-weight: 600;
   font-style: normal;
 }
-html * {
-  font-family: "Sharp-Grotesk" !important;
+body {
+  font-family: "Sharp-Grotesk", sans-serif !important;
   font-feature-settings: "salt" on;
   color: #00001e;
 }
@@ -43,7 +44,8 @@ strong,
   font-weight: 600 !important;
 }
 
-.typo .regular span, .typo .bold span {
+.typo .regular span,
+.typo .bold span {
   display: block;
   padding-bottom: 50px;
 }
@@ -53,7 +55,7 @@ strong,
   line-height: 108%;
   letter-spacing: 0.042em;
 }
-.heading .large.strong, .heading .large .strong, .heading.large.strong, .heading.large .strong {
+.heading .large.strong, .heading .large .strong, .heading .large strong, .heading.large.strong, .heading.large .strong, .heading.large strong {
   letter-spacing: 0.048em;
 }
 .heading .medium, .heading.medium {
@@ -61,7 +63,7 @@ strong,
   line-height: 116%;
   letter-spacing: 0.036em;
 }
-.heading .medium.strong, .heading .medium .strong, .heading.medium.strong, .heading.medium .strong {
+.heading .medium.strong, .heading .medium .strong, .heading .medium strong, .heading.medium.strong, .heading.medium .strong, .heading.medium strong {
   letter-spacing: 0.04em;
 }
 .heading .small, .heading.small {
@@ -69,7 +71,7 @@ strong,
   line-height: 124%;
   letter-spacing: 0.024em;
 }
-.heading .small.strong, .heading .small .strong, .heading.small.strong, .heading.small .strong {
+.heading .small.strong, .heading .small .strong, .heading .small strong, .heading.small.strong, .heading.small .strong, .heading.small strong {
   letter-spacing: 0.028em;
 }
 
@@ -78,7 +80,7 @@ strong,
   line-height: 120%;
   letter-spacing: 0.032em;
 }
-.title .xx-large.strong, .title .xx-large .strong, .title.xx-large.strong, .title.xx-large .strong {
+.title .xx-large.strong, .title .xx-large .strong, .title .xx-large strong, .title.xx-large.strong, .title.xx-large .strong, .title.xx-large strong {
   letter-spacing: 0.036em;
 }
 .title .x-large, .title.x-large {
@@ -86,7 +88,7 @@ strong,
   line-height: 124%;
   letter-spacing: 0.02em;
 }
-.title .x-large.strong, .title .x-large .strong, .title.x-large.strong, .title.x-large .strong {
+.title .x-large.strong, .title .x-large .strong, .title .x-large strong, .title.x-large.strong, .title.x-large .strong, .title.x-large strong {
   letter-spacing: 0.024em;
 }
 .title .large, .title.large {
@@ -94,7 +96,7 @@ strong,
   line-height: 132%;
   letter-spacing: 0.016em;
 }
-.title .large.strong, .title .large .strong, .title.large.strong, .title.large .strong {
+.title .large.strong, .title .large .strong, .title .large strong, .title.large.strong, .title.large .strong, .title.large strong {
   letter-spacing: 0.02em;
 }
 .title .medium, .title.medium {
@@ -102,7 +104,7 @@ strong,
   line-height: 140%;
   letter-spacing: 0.012em;
 }
-.title .medium.strong, .title .medium .strong, .title.medium.strong, .title.medium .strong {
+.title .medium.strong, .title .medium .strong, .title .medium strong, .title.medium.strong, .title.medium .strong, .title.medium strong {
   letter-spacing: 0.016em;
 }
 .title .small, .title.small {
@@ -110,7 +112,7 @@ strong,
   line-height: 148%;
   letter-spacing: 0.008em;
 }
-.title .small.strong, .title .small .strong, .title.small.strong, .title.small .strong {
+.title .small.strong, .title .small .strong, .title .small strong, .title.small.strong, .title.small .strong, .title.small strong {
   letter-spacing: 0.012em;
 }
 .title .x-small, .title.x-small {
@@ -118,7 +120,7 @@ strong,
   line-height: 156%;
   letter-spacing: 0.004em;
 }
-.title .x-small.strong, .title .x-small .strong, .title.x-small.strong, .title.x-small .strong {
+.title .x-small.strong, .title .x-small .strong, .title .x-small strong, .title.x-small.strong, .title.x-small .strong, .title.x-small strong {
   letter-spacing: 0.008em;
 }
 
@@ -127,7 +129,7 @@ strong,
   line-height: 156%;
   letter-spacing: -0.008em;
 }
-.paragraph .large.strong, .paragraph .large .strong, .paragraph.large.strong, .paragraph.large .strong {
+.paragraph .large.strong, .paragraph .large .strong, .paragraph .large strong, .paragraph.large.strong, .paragraph.large .strong, .paragraph.large strong {
   letter-spacing: -0.004em;
 }
 .paragraph .medium, .paragraph.medium {
@@ -135,7 +137,7 @@ strong,
   line-height: 164%;
   letter-spacing: -0.004em;
 }
-.paragraph .medium.strong, .paragraph .medium .strong, .paragraph.medium.strong, .paragraph.medium .strong {
+.paragraph .medium.strong, .paragraph .medium .strong, .paragraph .medium strong, .paragraph.medium.strong, .paragraph.medium .strong, .paragraph.medium strong {
   letter-spacing: 0;
 }
 .paragraph .small, .paragraph.small {
@@ -143,7 +145,7 @@ strong,
   line-height: 164%;
   letter-spacing: 0.002em;
 }
-.paragraph .small.strong, .paragraph .small .strong, .paragraph.small.strong, .paragraph.small .strong {
+.paragraph .small.strong, .paragraph .small .strong, .paragraph .small strong, .paragraph.small.strong, .paragraph.small .strong, .paragraph.small strong {
   letter-spacing: 0.006em;
 }
 .paragraph .x-small, .paragraph.x-small {
@@ -151,7 +153,45 @@ strong,
   line-height: 172%;
   letter-spacing: 0.004em;
 }
-.paragraph .x-small.strong, .paragraph .x-small .strong, .paragraph.x-small.strong, .paragraph.x-small .strong {
+.paragraph .x-small.strong, .paragraph .x-small .strong, .paragraph .x-small strong, .paragraph.x-small.strong, .paragraph.x-small .strong, .paragraph.x-small strong {
+  letter-spacing: 0.01em;
+  font-weight: 600 !important;
+}
+
+.paragraph.serif {
+  font-family: "Source Serif Pro", serif !important;
+  font-weight: 400;
+}
+.paragraph.serif .large, .paragraph.serif.large {
+  font-size: clamp(18px, 17.6px + 0.125vw, 20px);
+  line-height: 156%;
+  letter-spacing: -0.008em;
+}
+.paragraph.serif .large.strong, .paragraph.serif .large .strong, .paragraph.serif .large strong, .paragraph.serif.large.strong, .paragraph.serif.large .strong, .paragraph.serif.large strong {
+  letter-spacing: -0.004em;
+}
+.paragraph.serif .medium, .paragraph.serif.medium {
+  font-size: clamp(14px, 13.6px + 0.125vw, 16px);
+  line-height: 164%;
+  letter-spacing: -0.004em;
+}
+.paragraph.serif .medium.strong, .paragraph.serif .medium .strong, .paragraph.serif .medium strong, .paragraph.serif.medium.strong, .paragraph.serif.medium .strong, .paragraph.serif.medium strong {
+  letter-spacing: 0;
+}
+.paragraph.serif .small, .paragraph.serif.small {
+  font-size: clamp(12px, 11.6px + 0.125vw, 14px);
+  line-height: 164%;
+  letter-spacing: 0.002em;
+}
+.paragraph.serif .small.strong, .paragraph.serif .small .strong, .paragraph.serif .small strong, .paragraph.serif .small strong, .paragraph.serif.small.strong, .paragraph.serif.small .strong, .paragraph.serif.small strong, .paragraph.serif.small strong {
+  letter-spacing: 0.006em;
+}
+.paragraph.serif .x-small, .paragraph.serif.x-small {
+  font-size: clamp(8px, 7.36px + 0.175vw, 10px);
+  line-height: 172%;
+  letter-spacing: 0.004em;
+}
+.paragraph.serif .x-small.strong, .paragraph.serif .x-small .strong, .paragraph.serif .x-small strong, .paragraph.serif .x-small strong, .paragraph.serif.x-small.strong, .paragraph.serif.x-small .strong, .paragraph.serif.x-small strong, .paragraph.serif.x-small strong {
   letter-spacing: 0.01em;
   font-weight: 600 !important;
 }
@@ -167,7 +207,6 @@ strong,
   padding: 16px 32px;
   transition: all 0.35s ease-in-out;
   color: #fff;
-  max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
   border-radius: 2px;
@@ -255,4 +294,256 @@ strong,
 
 .warm-grey-fz-bg-900 {
   background-color: #060606;
+}
+
+.blue-fz-bg-100 {
+  background-color: #EFF1FF;
+}
+
+.blue-fz-bg-200 {
+  background-color: #DADFFF;
+}
+
+.blue-fz-bg-300 {
+  background-color: #B6BFFF;
+}
+
+.blue-fz-bg-400 {
+  background-color: #919EFF;
+}
+
+.blue-fz-bg-500 {
+  background-color: #6C7EFF;
+}
+
+.blue-fz-bg-600 {
+  background-color: #5062E2;
+}
+
+.blue-fz-bg-700 {
+  background-color: #3C49AA;
+}
+
+.blue-fz-bg-800 {
+  background-color: #283171;
+}
+
+.blue-fz-bg-900 {
+  background-color: #141839;
+}
+
+.yellow-fz-bg-100 {
+  background-color: #FFFBF4;
+}
+
+.yellow-fz-bg-200 {
+  background-color: #FFF6E7;
+}
+
+.yellow-fz-bg-300 {
+  background-color: #FFEDCE;
+}
+
+.yellow-fz-bg-400 {
+  background-color: #FFE4B6;
+}
+
+.yellow-fz-bg-500 {
+  background-color: #FFDB9D;
+}
+
+.yellow-fz-bg-600 {
+  background-color: #E2BF81;
+}
+
+.yellow-fz-bg-700 {
+  background-color: #AA8F61;
+}
+
+.yellow-fz-bg-800 {
+  background-color: #715F40;
+}
+
+.yellow-fz-bg-900 {
+  background-color: #393020;
+}
+
+.orange-fz-bg-100 {
+  background-color: #FFF2EF;
+}
+
+.orange-fz-bg-200 {
+  background-color: #FFE1DA;
+}
+
+.orange-fz-bg-300 {
+  background-color: #FFC3B6;
+}
+
+.orange-fz-bg-400 {
+  background-color: #FFA591;
+}
+
+.orange-fz-bg-500 {
+  background-color: #FF876C;
+}
+
+.orange-fz-bg-600 {
+  background-color: #E26B50;
+}
+
+.orange-fz-bg-700 {
+  background-color: #AA503C;
+}
+
+.orange-fz-bg-800 {
+  background-color: #713528;
+}
+
+.orange-fz-bg-900 {
+  background-color: #391B14;
+}
+
+.pink-fz-bg-100 {
+  background-color: #FFF5F5;
+}
+
+.pink-fz-bg-200 {
+  background-color: #FFE8E8;
+}
+
+.pink-fz-bg-300 {
+  background-color: #FFD0D0;
+}
+
+.pink-fz-bg-400 {
+  background-color: #FFB9B9;
+}
+
+.pink-fz-bg-500 {
+  background-color: #FFA2A2;
+}
+
+.pink-fz-bg-600 {
+  background-color: #E28585;
+}
+
+.pink-fz-bg-700 {
+  background-color: #AA6464;
+}
+
+.pink-fz-bg-800 {
+  background-color: #714343;
+}
+
+.pink-fz-bg-900 {
+  background-color: #392121;
+}
+
+.violet-fz-bg-100 {
+  background-color: #F8F4FF;
+}
+
+.violet-fz-bg-200 {
+  background-color: #EEE7FF;
+}
+
+.violet-fz-bg-300 {
+  background-color: #DECEFF;
+}
+
+.violet-fz-bg-400 {
+  background-color: #CDB6FF;
+}
+
+.violet-fz-bg-500 {
+  background-color: #BC9DFF;
+}
+
+.violet-fz-bg-600 {
+  background-color: #A081E2;
+}
+
+.violet-fz-bg-700 {
+  background-color: #7861AA;
+}
+
+.violet-fz-bg-800 {
+  background-color: #504071;
+}
+
+.violet-fz-bg-900 {
+  background-color: #282039;
+}
+
+.green-ocean-fz-bg-100 {
+  background-color: #F3FCFA;
+}
+
+.green-ocean-fz-bg-200 {
+  background-color: #E4F8F5;
+}
+
+.green-ocean-fz-bg-300 {
+  background-color: #C8F2EB;
+}
+
+.green-ocean-fz-bg-400 {
+  background-color: #ADEBE0;
+}
+
+.green-ocean-fz-bg-500 {
+  background-color: #92E4D6;
+}
+
+.green-ocean-fz-bg-600 {
+  background-color: #75C8BA;
+}
+
+.green-ocean-fz-bg-700 {
+  background-color: #58968B;
+}
+
+.green-ocean-fz-bg-800 {
+  background-color: #3B645D;
+}
+
+.green-ocean-fz-bg-900 {
+  background-color: #1D322E;
+}
+
+.green-grass-fz-bg-100 {
+  background-color: #FAFCF1;
+}
+
+.green-grass-fz-bg-200 {
+  background-color: #F5F8DF;
+}
+
+.green-grass-fz-bg-300 {
+  background-color: #EAF1C0;
+}
+
+.green-grass-fz-bg-400 {
+  background-color: #E0EAA0;
+}
+
+.green-grass-fz-bg-500 {
+  background-color: #D5E380;
+}
+
+.green-grass-fz-bg-600 {
+  background-color: #B9C763;
+}
+
+.green-grass-fz-bg-700 {
+  background-color: #8B954B;
+}
+
+.green-grass-fz-bg-800 {
+  background-color: #5C6332;
+}
+
+.green-grass-fz-bg-900 {
+  background-color: #2E3219;
 }/*# sourceMappingURL=style.css.map */

@@ -78,6 +78,28 @@
         </div>
       </div>
 
+      <!-- Paragraph -->
+      <div class="row">
+        <div class="col-12">
+          <p>Paragraph Serif</p>
+          <hr>
+        </div>
+      </div>
+      <div class="paragraph serif type row d-flex">
+        <div class="col-lg-6 regular">
+          <span class="large">The quick brown fox jumps <br class="d-lg-block d-none">over the lazy dog</span>
+          <span class="medium">The quick brown fox jumps <br class="d-lg-block d-none">over the lazy dog</span>
+          <span class="small">The quick brown fox jumps <br class="d-lg-block d-none">over the lazy dog</span>
+          <span class="x-small">The quick brown fox jumps <br class="d-lg-block d-none">over the lazy dog</span>
+        </div>
+        <div class="col-lg-6 bold">
+          <span class="large strong">The quick brown fox jumps <br class="d-lg-block d-none">over the lazy dog</span>
+          <span class="medium strong">The quick brown fox jumps <br class="d-lg-block d-none">over the lazy dog</span>
+          <span class="small strong">The quick brown fox jumps <br class="d-lg-block d-none">over the lazy dog</span>
+          <span class="x-small strong">The quick brown fox jumps <br class="d-lg-block d-none">over the lazy dog</span>
+        </div>
+      </div>
+
       <!-- Test -->
       <div class="row">
         <div class="col-12">
@@ -86,22 +108,22 @@
         </div>
       </div>
       <div class="row">
-
-        <div class="col-md-8">
+        <div class="col-md-7 py-4 my-3">
           <p class="heading large pb-3"><strong>Partita IVA senza stress</strong></p>
           <p class="title medium pb-4">Commercialista dedicato, apertura Partita IVA, fatture, F24, contributi,
             dichiarazione dei redditi. A partire da <span class="strong">€ 399 / anno</span>.</p>
           <p class="paragraph medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
             laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            nisi ut <strong>aliquip ex ea commodo consequat</strong>. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse
             cillum
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
             deserunt mollit anim id est laborum.</p>
         </div>
 
-        <div class="col-12">
-          <!-- test button -->
+        <!-- test button -->
+        <div class="col-12 py-4 my-3">
           <div class="button">
             <span class="paragraph large">L-text Button</span>
           </div>
@@ -112,7 +134,74 @@
             <span class="paragraph small">S-text Button</span>
           </div>
         </div>
+
+        <div class="col-md-7 py-4 my-3">
+          <p class="heading large pb-3"><strong>Partita IVA senza stress</strong></p>
+          <p class="title medium pb-4">Commercialista dedicato, apertura Partita IVA, fatture, F24, contributi,
+            dichiarazione dei redditi. A partire da <span class="strong">€ 399 / anno</span>.</p>
+          <p class="paragraph serif large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris
+            nisi ut <strong>aliquip ex ea commodo consequat</strong>. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse
+            cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <!-- test input -->
+        <div class="col-md-7 py-4 my-3">
+
+        </div>
       </div>
+      <!-- playground -->
+      <div class="row">
+        <div class="col-12">
+          <p>Playground</p>
+          <hr>
+        </div>
+      </div>
+      <!-- test letter spacing -->
+      <div class="row">
+        <div class="col-12 py-4 my-3">
+          <div>
+            Imposta il letter-spacing in em: 
+            <input placeholder="0.05" type="text" id="letterspacing-input" style="max-width: 80px;"> 
+            <button class="paragraph small" onclick="setLetterSpacing()">Aggiorna</button>
+          </div>
+          <div class="mt-4">
+            Imposta la line-height in %: 
+            <input placeholder="160" type="text" id="lineheight-input" style="max-width: 80px;"> 
+            <button class="paragraph small" onclick="setLineHeight()">Aggiorna</button>
+          </div>
+          <div class="row paragraph">
+            <div class="col-12 col-md-3">
+              <span class="large my-3 d-block custom-ls">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+              <div id="output-lp"></div>
+              <div id="output-lh"></div>
+            </div>
+            <div class="col-12 col-md-3">
+              <span class="medium my-3 d-block custom-ls">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+            </div>
+            <div class="col-12 col-md-3">
+              <span class="small my-3 d-block custom-ls">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+            </div>
+            <div class="col-12 col-md-3">
+              <span class="x-small my-3 d-block custom-ls">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- color -->
       <div class="row">
         <div class="col-12">
@@ -143,6 +232,83 @@
           <div class="color-box warm-grey-fz-bg-800">800</div>
           <div class="color-box warm-grey-fz-bg-900">900</div>
         </div>
+        <div class="color-3 d-flex pb-2">
+          <div class="color-box blue-fz-bg-100">100</div>
+          <div class="color-box blue-fz-bg-200">200</div>
+          <div class="color-box blue-fz-bg-300">300</div>
+          <div class="color-box blue-fz-bg-400">400</div>
+          <div class="color-box blue-fz-bg-500">500</div>
+          <div class="color-box blue-fz-bg-600">600</div>
+          <div class="color-box blue-fz-bg-700">700</div>
+          <div class="color-box blue-fz-bg-800">800</div>
+          <div class="color-box blue-fz-bg-900">900</div>
+        </div>
+        <div class="color-4 d-flex pb-2">
+          <div class="color-box yellow-fz-bg-100">100</div>
+          <div class="color-box yellow-fz-bg-200">200</div>
+          <div class="color-box yellow-fz-bg-300">300</div>
+          <div class="color-box yellow-fz-bg-400">400</div>
+          <div class="color-box yellow-fz-bg-500">500</div>
+          <div class="color-box yellow-fz-bg-600">600</div>
+          <div class="color-box yellow-fz-bg-700">700</div>
+          <div class="color-box yellow-fz-bg-800">800</div>
+          <div class="color-box yellow-fz-bg-900">900</div>
+        </div>
+        <div class="color-5 d-flex pb-2">
+          <div class="color-box orange-fz-bg-100">100</div>
+          <div class="color-box orange-fz-bg-200">200</div>
+          <div class="color-box orange-fz-bg-300">300</div>
+          <div class="color-box orange-fz-bg-400">400</div>
+          <div class="color-box orange-fz-bg-500">500</div>
+          <div class="color-box orange-fz-bg-600">600</div>
+          <div class="color-box orange-fz-bg-700">700</div>
+          <div class="color-box orange-fz-bg-800">800</div>
+          <div class="color-box orange-fz-bg-900">900</div>
+        </div>
+        <div class="color-5 d-flex pb-2">
+          <div class="color-box pink-fz-bg-100">100</div>
+          <div class="color-box pink-fz-bg-200">200</div>
+          <div class="color-box pink-fz-bg-300">300</div>
+          <div class="color-box pink-fz-bg-400">400</div>
+          <div class="color-box pink-fz-bg-500">500</div>
+          <div class="color-box pink-fz-bg-600">600</div>
+          <div class="color-box pink-fz-bg-700">700</div>
+          <div class="color-box pink-fz-bg-800">800</div>
+          <div class="color-box pink-fz-bg-900">900</div>
+        </div>
+        <div class="color-5 d-flex pb-2">
+          <div class="color-box violet-fz-bg-100">100</div>
+          <div class="color-box violet-fz-bg-200">200</div>
+          <div class="color-box violet-fz-bg-300">300</div>
+          <div class="color-box violet-fz-bg-400">400</div>
+          <div class="color-box violet-fz-bg-500">500</div>
+          <div class="color-box violet-fz-bg-600">600</div>
+          <div class="color-box violet-fz-bg-700">700</div>
+          <div class="color-box violet-fz-bg-800">800</div>
+          <div class="color-box violet-fz-bg-900">900</div>
+        </div>
+        <div class="color-5 d-flex pb-2">
+          <div class="color-box green-ocean-fz-bg-100">100</div>
+          <div class="color-box green-ocean-fz-bg-200">200</div>
+          <div class="color-box green-ocean-fz-bg-300">300</div>
+          <div class="color-box green-ocean-fz-bg-400">400</div>
+          <div class="color-box green-ocean-fz-bg-500">500</div>
+          <div class="color-box green-ocean-fz-bg-600">600</div>
+          <div class="color-box green-ocean-fz-bg-700">700</div>
+          <div class="color-box green-ocean-fz-bg-800">800</div>
+          <div class="color-box green-ocean-fz-bg-900">900</div>
+        </div>
+        <div class="color-5 d-flex pb-2">
+          <div class="color-box green-grass-fz-bg-100">100</div>
+          <div class="color-box green-grass-fz-bg-200">200</div>
+          <div class="color-box green-grass-fz-bg-300">300</div>
+          <div class="color-box green-grass-fz-bg-400">400</div>
+          <div class="color-box green-grass-fz-bg-500">500</div>
+          <div class="color-box green-grass-fz-bg-600">600</div>
+          <div class="color-box green-grass-fz-bg-700">700</div>
+          <div class="color-box green-grass-fz-bg-800">800</div>
+          <div class="color-box green-grass-fz-bg-900">900</div>
+        </div>
       </div>
     </div>
   </div>
@@ -151,4 +317,25 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+
+  <script>
+    function setLetterSpacing() {
+        const inputVal = document.getElementById("letterspacing-input").value;
+        const textElements = document.querySelectorAll(".custom-ls");
+        textElements.forEach((textElement) => {
+          textElement.style.letterSpacing = inputVal + "em";
+        });
+        // const outputElement = document.getElementById("output-lp");
+        // outputElement.innerHTML = `Letter spacing: ${inputVal}`;
+      }
+    function setLineHeight(){
+      const lineHeightVal = document.getElementById("lineheight-input").value;
+        const textElements = document.querySelectorAll(".custom-ls");
+        textElements.forEach((textElement) => {
+          textElement.style.lineHeight = lineHeightVal + "%";
+        });
+        // const outputElement = document.getElementById("output-lh");
+        // outputElement.innerHTML = `Line height: ${lineHeightVal}`;
+    }
+  </script>
 </body>
