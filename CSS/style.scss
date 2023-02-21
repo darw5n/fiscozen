@@ -305,7 +305,8 @@ strong,
 
   .large,
   &.large {
-    font-size: clamp(18px, 17.6px + 0.125vw, 20px);
+    // font-size: clamp(18px, 17.6px + 0.125vw, 20px);
+    font-size: clamp(18px, 17.42px + 0.178vw, 20px);
     line-height: 156%;
     letter-spacing: -0.008em;
 
@@ -318,7 +319,8 @@ strong,
 
   .medium,
   &.medium {
-    font-size: clamp(14px, 13.6px + 0.125vw, 16px);
+    // font-size: clamp(14px, 13.6px + 0.125vw, 16px);
+    font-size: clamp(14px, 13.28px + 0.178vw, 16px);
     line-height: 164%;
     letter-spacing: -0.004em;
 
@@ -331,7 +333,8 @@ strong,
 
   .small,
   &.small {
-    font-size: clamp(12px, 11.6px + 0.125vw, 14px);
+    // font-size: clamp(12px, 11.6px + 0.125vw, 14px);
+    font-size: clamp(12px, 11.42px + 0.178vw, 14px);
     line-height: 164%;
     letter-spacing: 0.002em;
 
@@ -366,7 +369,8 @@ strong,
 
   .large,
   &.large {
-    font-size: clamp(18px, 17.6px + 0.125vw, 20px);
+    // font-size: clamp(18px, 17.6px + 0.125vw, 20px);
+    font-size: clamp(18px, 17.42px + 0.178vw, 20px);
     line-height: 156%;
     letter-spacing: -0.008em;
 
@@ -379,7 +383,8 @@ strong,
 
   .medium,
   &.medium {
-    font-size: clamp(14px, 13.6px + 0.125vw, 16px);
+    // font-size: clamp(14px, 13.6px + 0.125vw, 16px);
+    font-size: clamp(14px, 13.28px + 0.178vw, 16px);
     line-height: 164%;
     letter-spacing: -0.004em;
 
@@ -392,7 +397,8 @@ strong,
 
   .small,
   &.small {
-    font-size: clamp(12px, 11.6px + 0.125vw, 14px);
+    // font-size: clamp(12px, 11.6px + 0.125vw, 14px);
+    font-size: clamp(12px, 11.42px + 0.178vw, 14px);
     line-height: 164%;
     letter-spacing: 0.002em;
 
@@ -407,7 +413,7 @@ strong,
   .x-small,
   &.x-small {
     // font-size: clamp(8px, 7.6px + 0.125vw, 10px); //vw max 1920
-    font-size: clamp(8px, 7.36px + 0.175vw, 10px); //vw max 1440
+    font-size: clamp(8px, 7.36px + 0.178vw, 10px); //vw max 1440
 
     line-height: 172%;
     letter-spacing: 0.004em;

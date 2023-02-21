@@ -125,7 +125,7 @@ strong,
 }
 
 .paragraph .large, .paragraph.large {
-  font-size: clamp(18px, 17.6px + 0.125vw, 20px);
+  font-size: clamp(18px, 17.42px + 0.178vw, 20px);
   line-height: 156%;
   letter-spacing: -0.008em;
 }
@@ -133,7 +133,7 @@ strong,
   letter-spacing: -0.004em;
 }
 .paragraph .medium, .paragraph.medium {
-  font-size: clamp(14px, 13.6px + 0.125vw, 16px);
+  font-size: clamp(14px, 13.28px + 0.178vw, 16px);
   line-height: 164%;
   letter-spacing: -0.004em;
 }
@@ -141,7 +141,7 @@ strong,
   letter-spacing: 0;
 }
 .paragraph .small, .paragraph.small {
-  font-size: clamp(12px, 11.6px + 0.125vw, 14px);
+  font-size: clamp(12px, 11.42px + 0.178vw, 14px);
   line-height: 164%;
   letter-spacing: 0.002em;
 }
@@ -163,7 +163,7 @@ strong,
   font-weight: 400;
 }
 .paragraph.serif .large, .paragraph.serif.large {
-  font-size: clamp(18px, 17.6px + 0.125vw, 20px);
+  font-size: clamp(18px, 17.42px + 0.178vw, 20px);
   line-height: 156%;
   letter-spacing: -0.008em;
 }
@@ -171,7 +171,7 @@ strong,
   letter-spacing: -0.004em;
 }
 .paragraph.serif .medium, .paragraph.serif.medium {
-  font-size: clamp(14px, 13.6px + 0.125vw, 16px);
+  font-size: clamp(14px, 13.28px + 0.178vw, 16px);
   line-height: 164%;
   letter-spacing: -0.004em;
 }
@@ -179,7 +179,7 @@ strong,
   letter-spacing: 0;
 }
 .paragraph.serif .small, .paragraph.serif.small {
-  font-size: clamp(12px, 11.6px + 0.125vw, 14px);
+  font-size: clamp(12px, 11.42px + 0.178vw, 14px);
   line-height: 164%;
   letter-spacing: 0.002em;
 }
@@ -187,7 +187,7 @@ strong,
   letter-spacing: 0.006em;
 }
 .paragraph.serif .x-small, .paragraph.serif.x-small {
-  font-size: clamp(8px, 7.36px + 0.175vw, 10px);
+  font-size: clamp(8px, 7.36px + 0.178vw, 10px);
   line-height: 172%;
   letter-spacing: 0.004em;
 }
