@@ -51,7 +51,7 @@ strong,
 }
 
 .heading .large, .heading.large {
-  font-size: clamp(48px, 44.8px + 1vw, 64px);
+  font-size: clamp(48px, 43.42px + 1.42vw, 64px);
   line-height: 108%;
   letter-spacing: 0.042em;
 }
@@ -59,7 +59,7 @@ strong,
   letter-spacing: 0.048em;
 }
 .heading .medium, .heading.medium {
-  font-size: clamp(40px, 36.8px + 1vw, 56px);
+  font-size: clamp(40px, 35.36px + 1.42vw, 56px);
   line-height: 116%;
   letter-spacing: 0.036em;
 }
@@ -67,7 +67,7 @@ strong,
   letter-spacing: 0.04em;
 }
 .heading .small, .heading.small {
-  font-size: clamp(32px, 30.4px + 1vw, 40px);
+  font-size: clamp(32px, 29.6px + 0.71vw, 40px);
   line-height: 124%;
   letter-spacing: 0.024em;
 }
@@ -76,7 +76,7 @@ strong,
 }
 
 .title .xx-large, .title.xx-large {
-  font-size: clamp(32px, 28.8px + 1vw, 48px);
+  font-size: clamp(32px, 27.42px + 1.42vw, 48px);
   line-height: 120%;
   letter-spacing: 0.032em;
 }
@@ -84,7 +84,7 @@ strong,
   letter-spacing: 0.036em;
 }
 .title .x-large, .title.x-large {
-  font-size: clamp(28px, 24px + 0.75vw, 40px);
+  font-size: clamp(28px, 24.48px + 1.07vw, 40px);
   line-height: 124%;
   letter-spacing: 0.02em;
 }
@@ -92,7 +92,7 @@ strong,
   letter-spacing: 0.024em;
 }
 .title .large, .title.large {
-  font-size: clamp(24px, 22.4px + 0.5vw, 32px);
+  font-size: clamp(24px, 21.71px + 0.71vw, 32px);
   line-height: 132%;
   letter-spacing: 0.016em;
 }
@@ -100,7 +100,7 @@ strong,
   letter-spacing: 0.02em;
 }
 .title .medium, .title.medium {
-  font-size: clamp(20px, 19.2px + 0.25vw, 24px);
+  font-size: clamp(20px, 18.72px + 0.357vw, 24px);
   line-height: 140%;
   letter-spacing: 0.012em;
 }
@@ -108,7 +108,7 @@ strong,
   letter-spacing: 0.016em;
 }
 .title .small, .title.small {
-  font-size: clamp(18px, 17.6px + 0.125vw, 20px);
+  font-size: clamp(18px, 17.42px + 0.178vw, 20px);
   line-height: 148%;
   letter-spacing: 0.008em;
 }
