@@ -454,6 +454,24 @@ strong,
   }
 }
 
+// ----> input <------
+input.input-fz{
+  border: 2px solid $cold-grey-fz-color-400;
+  border-radius: 4px;
+  padding: 8px 24px;
+  background-color:#fff;
+  transition: all 0.4s ease-in-out;
+  &:focus {
+    color:$cold-grey-fz-color-900;
+    outline: none !important;
+    border-color: $blue-fz-color-500;
+  }
+  &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $cold-grey-fz-color-600;
+    opacity: 1; /* Firefox */
+  }
+}
+
 // ------ Palette Box -------------------------------------------------------
 
 .color-box {

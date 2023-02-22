@@ -219,6 +219,27 @@ strong,
   cursor: pointer;
 }
 
+input.input-fz {
+  border: 2px solid #d6d6db;
+  border-radius: 4px;
+  padding: 8px 24px;
+  background-color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+input.input-fz:focus {
+  color: #00001e;
+  outline: none !important;
+  border-color: #6C7EFF;
+}
+input.input-fz::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #8e8e9b;
+  opacity: 1; /* Firefox */
+}
+input.input-fz::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #8e8e9b;
+  opacity: 1; /* Firefox */
+}
+
 .color-box {
   height: 200px;
   width: 200px;
