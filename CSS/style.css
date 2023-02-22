@@ -281,6 +281,42 @@ input.input-fz::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   background-color: #00001e;
 }
 
+.cold-grey-fz-100 {
+  color: #fcfcfd;
+}
+
+.cold-grey-fz-200 {
+  color: #fafafb;
+}
+
+.cold-grey-fz-300 {
+  color: #f2f2f3;
+}
+
+.cold-grey-fz-400 {
+  color: #d6d6db;
+}
+
+.cold-grey-fz-500 {
+  color: #b7b7bf;
+}
+
+.cold-grey-fz-600 {
+  color: #8e8e9b;
+}
+
+.cold-grey-fz-700 {
+  color: #5c5c6f;
+}
+
+.cold-grey-fz-800 {
+  color: #21213b;
+}
+
+.cold-grey-fz-900 {
+  color: #00001e;
+}
+
 .warm-grey-fz-bg-100 {
   background-color: #fffaf5;
 }
