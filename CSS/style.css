@@ -215,7 +215,7 @@ strong,
 .button.invert {
   background-color: #fff;
   color: #6C7EFF;
-  box-shadow: inset 0px 0px 0px 2px #6C7EFF;
+  box-shadow: inset 0px 0px 0px 1px #6C7EFF;
 }
 .button.invert:hover {
   background-color: #fff;
@@ -226,9 +226,19 @@ strong,
   opacity: 0.5;
   cursor: not-allowed !important;
 }
+.button svg {
+  transition: all 0.5s ease-in-out;
+}
 .button:hover {
   background-color: #5062E2;
   cursor: pointer;
+}
+.button:hover svg {
+  scale: 1.2;
+}
+.button:hover svg path {
+  stroke: #5062E2;
+  stroke-width: 1px;
 }
 
 input.input-fz {

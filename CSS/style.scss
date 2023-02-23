@@ -456,7 +456,7 @@ strong,
   &.invert{
     background-color: #fff;
     color: $blue-fz-color-500;
-    box-shadow: inset 0px 0px 0px 2px $blue-fz-color-500;
+    box-shadow: inset 0px 0px 0px 1px $blue-fz-color-500;
     &:hover {
       background-color: #fff;
       color: $blue-fz-color-600;
@@ -467,9 +467,19 @@ strong,
     opacity: .5;
     cursor: not-allowed !important;
   }
+  svg{
+    transition: all 0.5s ease-in-out;
+  }
   &:hover {
     background-color:$blue-fz-color-600;
     cursor: pointer;
+    svg{
+      scale: 1.2;
+      & path{
+        stroke: $blue-fz-color-600;
+        stroke-width: 1px;
+      }
+    }
   }
 
 }
