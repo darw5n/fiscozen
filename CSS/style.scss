@@ -483,6 +483,15 @@ strong,
   }
 
 }
+// ------ Badge -------------------------------------------------------
+.chip{
+  padding: 10px 16px;
+  border-radius: 16px;
+  color: #fff;
+  // width:min-content;
+  // height: min-content;
+  display: inline;
+}
 
 // ----> input <------
 input.input-fz{

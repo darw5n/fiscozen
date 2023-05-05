@@ -241,6 +241,13 @@ strong,
   stroke-width: 1px;
 }
 
+.chip {
+  padding: 10px 16px;
+  border-radius: 16px;
+  color: #fff;
+  display: inline;
+}
+
 input.input-fz {
   border: 2px solid #d6d6db;
   border-radius: 4px;
