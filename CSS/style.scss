@@ -481,8 +481,8 @@ strong,
       }
     }
   }
-
 }
+
 // ------ Badge -------------------------------------------------------
 .chip{
   padding: 10px 16px;
@@ -955,4 +955,41 @@ input.input-fz{
     border-top: 2px solid $cold-grey-fz-color-300;
   }
 
+}
+
+
+
+///----- new components ///-----///-----///-----///-----///-----///-----///-----
+/// 
+/// 
+/// 
+// new button
+button.button{
+  min-width: 80px; //da fixare
+  width: fit-content;
+  border-radius: 8px;
+  border:0;
+  &.large{
+    height: 48px;
+    padding: 0 32px;
+    @media (max-width: 767.98px) { 
+      height: 40px;
+      padding: 0 24px;
+     }
+  }
+  &.medium{
+    height: 40px;
+    padding: 0 24px;
+    @media (max-width: 767.98px) { 
+      height: 32px;
+      padding: 0 20px;
+     }
+  }
+  &.small{
+    height: 16px;
+    @media (max-width: 767.98px) { 
+      height: 28px;
+      padding: 0 14px;
+     }
+  }
 }

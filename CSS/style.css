@@ -695,4 +695,41 @@ input.input-fz::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 }
 .app .footer {
   border-top: 2px solid #f2f2f3;
+}
+
+button.button {
+  min-width: 80px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 8px;
+  border: 0;
+}
+button.button.large {
+  height: 48px;
+  padding: 0 32px;
+}
+@media (max-width: 767.98px) {
+  button.button.large {
+    height: 40px;
+    padding: 0 24px;
+  }
+}
+button.button.medium {
+  height: 40px;
+  padding: 0 24px;
+}
+@media (max-width: 767.98px) {
+  button.button.medium {
+    height: 32px;
+    padding: 0 20px;
+  }
+}
+button.button.small {
+  height: 16px;
+}
+@media (max-width: 767.98px) {
+  button.button.small {
+    height: 28px;
+    padding: 0 14px;
+  }
 }/*# sourceMappingURL=style.css.map */
