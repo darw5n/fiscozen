@@ -1026,6 +1026,69 @@ button.button-ds{
      }
   }
 }
+// new button
+button.button-ds-2{
+  min-width: 80px; //da fixare
+  border-radius: 8px;
+  border:0;
+  background-color:$blue-fz-color-500;
+  color:#fff;
+  transition: all 0.35s ease-in-out;
+
+  &.invert{
+    background-color: #fff;
+    color: $blue-fz-color-500;
+    box-shadow: inset 0px 0px 0px 1px $blue-fz-color-500;
+    &:hover {
+      background-color: #fff;
+      color: $blue-fz-color-600;
+      box-shadow: inset 0px 0px 0px 2px $blue-fz-color-600;
+    }
+  }
+  &.disabled{
+    opacity: .5;
+    cursor: not-allowed !important;
+  }
+  svg{
+    transition: all 0.5s ease-in-out;
+  }
+  &:hover {
+    background-color:$blue-fz-color-600;
+    cursor: pointer;
+    svg{
+      scale: 1.2;
+      & path{
+        stroke: $blue-fz-color-600;
+        stroke-width: 1px;
+      }
+    }
+  }
+
+  &.large{
+    height: 60px;
+    padding: 0 44px;
+    @media (max-width: 767.98px) { 
+      height: 44px;
+      padding: 0 24px;
+     }
+  }
+  &.medium{
+    height: 48px;
+    padding: 0 36px;
+    @media (max-width: 767.98px) { 
+      height: 32px;
+      padding: 0 20px;
+     }
+  }
+  &.small{
+    height: 36px;
+    padding: 0 24px;
+    @media (max-width: 767.98px) { 
+      height: 28px;
+      padding: 0 14px;
+     }
+  }
+}
 
 //chips
 .chip-ds{

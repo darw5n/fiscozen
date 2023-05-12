@@ -764,6 +764,73 @@ button.button-ds.small {
   }
 }
 
+button.button-ds-2 {
+  min-width: 80px;
+  border-radius: 8px;
+  border: 0;
+  background-color: #6C7EFF;
+  color: #fff;
+  transition: all 0.35s ease-in-out;
+}
+button.button-ds-2.invert {
+  background-color: #fff;
+  color: #6C7EFF;
+  box-shadow: inset 0px 0px 0px 1px #6C7EFF;
+}
+button.button-ds-2.invert:hover {
+  background-color: #fff;
+  color: #5062E2;
+  box-shadow: inset 0px 0px 0px 2px #5062E2;
+}
+button.button-ds-2.disabled {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+button.button-ds-2 svg {
+  transition: all 0.5s ease-in-out;
+}
+button.button-ds-2:hover {
+  background-color: #5062E2;
+  cursor: pointer;
+}
+button.button-ds-2:hover svg {
+  scale: 1.2;
+}
+button.button-ds-2:hover svg path {
+  stroke: #5062E2;
+  stroke-width: 1px;
+}
+button.button-ds-2.large {
+  height: 60px;
+  padding: 0 44px;
+}
+@media (max-width: 767.98px) {
+  button.button-ds-2.large {
+    height: 44px;
+    padding: 0 24px;
+  }
+}
+button.button-ds-2.medium {
+  height: 48px;
+  padding: 0 36px;
+}
+@media (max-width: 767.98px) {
+  button.button-ds-2.medium {
+    height: 32px;
+    padding: 0 20px;
+  }
+}
+button.button-ds-2.small {
+  height: 36px;
+  padding: 0 24px;
+}
+@media (max-width: 767.98px) {
+  button.button-ds-2.small {
+    height: 28px;
+    padding: 0 14px;
+  }
+}
+
 .chip-ds {
   color: #fff;
   border-radius: 24px;
