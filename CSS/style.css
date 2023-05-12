@@ -697,39 +697,112 @@ input.input-fz::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   border-top: 2px solid #f2f2f3;
 }
 
-button.button {
+button.button-ds {
   min-width: 80px;
-  width: -moz-fit-content;
-  width: fit-content;
   border-radius: 8px;
   border: 0;
+  background-color: #6C7EFF;
+  color: #fff;
+  transition: all 0.35s ease-in-out;
 }
-button.button.large {
+button.button-ds.invert {
+  background-color: #fff;
+  color: #6C7EFF;
+  box-shadow: inset 0px 0px 0px 1px #6C7EFF;
+}
+button.button-ds.invert:hover {
+  background-color: #fff;
+  color: #5062E2;
+  box-shadow: inset 0px 0px 0px 2px #5062E2;
+}
+button.button-ds.disabled {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+button.button-ds svg {
+  transition: all 0.5s ease-in-out;
+}
+button.button-ds:hover {
+  background-color: #5062E2;
+  cursor: pointer;
+}
+button.button-ds:hover svg {
+  scale: 1.2;
+}
+button.button-ds:hover svg path {
+  stroke: #5062E2;
+  stroke-width: 1px;
+}
+button.button-ds.large {
   height: 48px;
   padding: 0 32px;
 }
 @media (max-width: 767.98px) {
-  button.button.large {
+  button.button-ds.large {
     height: 40px;
     padding: 0 24px;
   }
 }
-button.button.medium {
+button.button-ds.medium {
   height: 40px;
   padding: 0 24px;
 }
 @media (max-width: 767.98px) {
-  button.button.medium {
+  button.button-ds.medium {
     height: 32px;
     padding: 0 20px;
   }
 }
-button.button.small {
-  height: 16px;
+button.button-ds.small {
+  height: 32px;
+  padding: 0 20px;
 }
 @media (max-width: 767.98px) {
-  button.button.small {
+  button.button-ds.small {
     height: 28px;
     padding: 0 14px;
+  }
+}
+
+.chip-ds {
+  color: #fff;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+}
+.chip-ds.large {
+  height: 36px;
+  padding: 0 20px;
+  font-size: 14px;
+}
+@media (max-width: 767.98px) {
+  .chip-ds.large {
+    font-size: 12px;
+    height: 28px;
+    padding: 0 16px;
+  }
+}
+.chip-ds.medium {
+  height: 32px;
+  padding: 0 16px;
+  font-size: 12px;
+}
+@media (max-width: 767.98px) {
+  .chip-ds.medium {
+    font-size: 10px;
+    height: 24px;
+    padding: 0 12px;
+  }
+}
+.chip-ds.small {
+  height: 24px;
+  padding: 0 12px;
+  font-size: 10px;
+}
+@media (max-width: 767.98px) {
+  .chip-ds.small {
+    font-size: 8px;
+    height: 20px;
+    padding: 0 8px;
   }
 }/*# sourceMappingURL=style.css.map */
