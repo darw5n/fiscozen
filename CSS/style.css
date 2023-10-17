@@ -890,8 +890,14 @@ button.button-ds-2.small {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
-
+@media (max-width: 767.98px) {
+  .top-bar {
+    align-items: flex-start;
+  }
+}
 .fake-header {
   background: #fff;
   height: 80;

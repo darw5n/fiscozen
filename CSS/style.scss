@@ -1145,6 +1145,17 @@ button.button-ds-2{
   
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  @media (max-width: 767.98px) { 
+    align-items:flex-start;
+   }
+  
+
+  span{
+    // display: flex;
+  }
+
   
 }
 .fake-header{
