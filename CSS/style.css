@@ -872,4 +872,38 @@ button.button-ds-2.small {
     height: 20px;
     padding: 0 8px;
   }
+}
+
+/* sticky top bar */
+.top-container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.top-bar {
+  background-color: #FFDB9D;
+  padding: 1rem;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.fake-header {
+  background: #fff;
+  height: 80;
+  position: fixed;
+  width: 100%;
+  box-shadow: 1px 0 20px rgba(0, 0, 0, 0.08);
+}
+.fake-header .logo-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.fake-header .logo-container svg {
+  height: 30px;
 }/*# sourceMappingURL=style.css.map */

@@ -7,6 +7,26 @@
 </head>
 
 <body>
+
+  <!-- top bar -->
+  <div class="top-container">
+    <div class="top-bar">
+      <span><strong>Fatturazione elettronica</strong>: invia e archivia correttamente i tuoi documenti attivando la
+        Conservazione sostitutiva. <a href="" target="_blank">Attiva ora →</a></span>
+    </div>
+    <div class="fake-header">
+  
+      <div class="logo-container"><svg width="84" height="75" viewBox="0 0 84 75" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M0 0H83.6299V13.9383H0V0ZM0.000282374 74.9998L4.36386e-05 75L0 74.9998H0.000282374ZM41.9066 44.1977L0.000282374 74.9998H24.8335L83.63 30.231H4.36386e-05V44.1977H41.9066Z"
+            fill="#00001E"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <!-- fine top bar -->
+  
   <div class="row">
     <div class="typo">
 
@@ -164,7 +184,8 @@
           <div class="col-md-6 py-4 my-3">
             <p class="title xx-large"><strong>Applicazione web e mobile</strong></p>
             <p class="title large cold-grey-fz-600 ">Tutto sotto controllo, in un solo posto, 100% online</p>
-            <p class="paragraph large cold-grey-fz-800">Crea le fatture, organizza il tuo portafoglio clienti/fornitori, controlla la previsione delle tasse e dei contributi sempre aggiornata, quando e dove vuoi.</p>
+            <p class="paragraph large cold-grey-fz-800">Crea le fatture, organizza il tuo portafoglio clienti/fornitori,
+              controlla la previsione delle tasse e dei contributi sempre aggiornata, quando e dove vuoi.</p>
             <div class="button">
               <span class="paragraph medium">M-text Button</span>
             </div>
@@ -182,47 +203,53 @@
       <div class="row">
         <div class="col-12 py-4 my-3">
           <div>
-            Imposta il letter-spacing in em: 
-            <input class="input-fz" placeholder="0.05" type="text" id="letterspacing-input"> 
+            Imposta il letter-spacing in em:
+            <input class="input-fz" placeholder="0.05" type="text" id="letterspacing-input">
             <button class="paragraph small" onclick="setLetterSpacing()">Aggiorna</button>
           </div>
           <div class="mt-4">
-            Imposta la line-height in %: 
-            <input class="input-fz" placeholder="160" type="text" id="lineheight-input" > 
+            Imposta la line-height in %:
+            <input class="input-fz" placeholder="160" type="text" id="lineheight-input">
             <button class="paragraph small" onclick="setLineHeight()">Aggiorna</button>
           </div>
           <div class="row paragraph">
             <div class="col-12 col-md-3">
               <p>Large paragraph</p>
               <span class="large my-3 d-block custom-ls">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation
                 ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
               <div id="output-lp"></div>
               <div id="output-lh"></div>
             </div>
             <div class="col-12 col-md-3">
               <p>Medium paragraph</p>
-              <span class="medium my-3 d-block custom-ls">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              <span class="medium my-3 d-block custom-ls">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation
                 ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
             </div>
             <div class="col-12 col-md-3">
               <p>Small paragraph</p>
               <span class="small my-3 d-block custom-ls">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation
                 ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
             </div>
             <div class="col-12 col-md-3">
               <p>X-small paragraph</p>
-              <span class="x-small my-3 d-block custom-ls">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              <span class="x-small my-3 d-block custom-ls">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation
                 ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
             </div>
           </div>
         </div>
       </div>
-       <!-- playground -->
-       <div class="row" id="fattura">
+      <!-- playground -->
+      <div class="row" id="fattura">
         <div class="col-12">
           <p>Fiscozen app</p>
           <hr>
@@ -253,7 +280,7 @@
             <span class="paragraph medium">Assistenza</span>
           </div>
         </div>
-       <div class="row container">
+        <div class="row container">
           <div class="col-12 col-md-6">
             <div class="px-3 py-4">
               <div class="component mb-5">
@@ -265,9 +292,11 @@
                 <p class="title medium">Compila l'intestazione</p>
               </div>
               <div class="component  pb-3">
-                <p class="paragraph intro medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                <p class="paragraph intro medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod
                   tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco
                   laboris.</p>
               </div>
               <div class="component">
@@ -289,10 +318,10 @@
           </div>
           <div class="col-12 col-md-6">
             <div class="fattura px-3 py-4">
-               <div></div>
+              <div></div>
             </div>
           </div>
-       </div>
+        </div>
         <div class="footer">
           <div class="button invert disabled">
             <span class="paragraph medium">Indietro</span>
@@ -413,41 +442,41 @@
       </div>
       <!-- badge -->
       <div class="row" id="fattura">
-      <div class="col-12">
-        <p>Badge</p>
-        <hr>
+        <div class="col-12">
+          <p>Badge</p>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="chip blue-fz-bg-500"><span class="paragraph medium">Chip M</span></div>
+          </div>
+        </div>
       </div>
       <div class="row">
         <div class="col-12">
-          <div class="chip blue-fz-bg-500"><span class="paragraph medium">Chip M</span></div>
+          <p>Design System Components</p>
+          <hr>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <p>Design System Components</p>
-        <hr>
+      <div class="row">
+        <div class="col-12 col-md-6" style="display:flex; justify-content: space-evenly;">
+          <button class="button-ds large"><span class="paragraph large">ButtonL</span></button>
+          <button class="button-ds medium"><span class="paragraph medium">ButtonM</span></button>
+          <button class="button-ds small"><span class="paragraph small">ButtonS</span></button>
+        </div>
+        <div class="col-12 col-md-6" style="display:flex; justify-content: space-evenly;">
+          <button class="button-ds-2 large"><span class="paragraph large">ButtonL</span></button>
+          <button class="button-ds-2 medium"><span class="paragraph medium">ButtonM</span></button>
+          <button class="button-ds-2 small"><span class="paragraph small">ButtonS</span></button>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-12 col-md-6"  style="display:flex; justify-content: space-evenly;">
-        <button class="button-ds large"><span class="paragraph large">ButtonL</span></button>
-        <button class="button-ds medium"><span class="paragraph medium">ButtonM</span></button>
-        <button class="button-ds small"><span class="paragraph small">ButtonS</span></button>
+      <div class="row" style="justify-content: space-evenly;">
+        <div class="col-12" style="display:flex; justify-content: space-evenly;">
+          <div class="chip-ds large blue-fz-bg-500">Chip L</div>
+          <div class="chip-ds medium blue-fz-bg-500">Chip M</div>
+          <div class="chip-ds small blue-fz-bg-500">Chip S</div>
+        </div>
       </div>
-      <div class="col-12 col-md-6"  style="display:flex; justify-content: space-evenly;">
-        <button class="button-ds-2 large"><span class="paragraph large">ButtonL</span></button>
-        <button class="button-ds-2 medium"><span class="paragraph medium">ButtonM</span></button>
-        <button class="button-ds-2 small"><span class="paragraph small">ButtonS</span></button>
-      </div>
-    </div>
-    <div class="row" style="justify-content: space-evenly;">
-      <div class="col-12" style="display:flex; justify-content: space-evenly;">
-        <div class="chip-ds large blue-fz-bg-500">Chip L</div>
-      <div class="chip-ds medium blue-fz-bg-500">Chip M</div>
-      <div class="chip-ds small blue-fz-bg-500">Chip S</div>
-      </div>
-    </div>
     </div>
   </div>
 
@@ -458,22 +487,22 @@
 
   <script>
     function setLetterSpacing() {
-        const inputVal = document.getElementById("letterspacing-input").value;
-        const textElements = document.querySelectorAll(".custom-ls");
-        textElements.forEach((textElement) => {
-          textElement.style.letterSpacing = inputVal + "em";
-        });
-        // const outputElement = document.getElementById("output-lp");
-        // outputElement.innerHTML = `Letter spacing: ${inputVal}`;
-      }
-    function setLineHeight(){
+      const inputVal = document.getElementById("letterspacing-input").value;
+      const textElements = document.querySelectorAll(".custom-ls");
+      textElements.forEach((textElement) => {
+        textElement.style.letterSpacing = inputVal + "em";
+      });
+      // const outputElement = document.getElementById("output-lp");
+      // outputElement.innerHTML = `Letter spacing: ${inputVal}`;
+    }
+    function setLineHeight() {
       const lineHeightVal = document.getElementById("lineheight-input").value;
-        const textElements = document.querySelectorAll(".custom-ls");
-        textElements.forEach((textElement) => {
-          textElement.style.lineHeight = lineHeightVal + "%";
-        });
-        // const outputElement = document.getElementById("output-lh");
-        // outputElement.innerHTML = `Line height: ${lineHeightVal}`;
+      const textElements = document.querySelectorAll(".custom-ls");
+      textElements.forEach((textElement) => {
+        textElement.style.lineHeight = lineHeightVal + "%";
+      });
+      // const outputElement = document.getElementById("output-lh");
+      // outputElement.innerHTML = `Line height: ${lineHeightVal}`;
     }
   </script>
 </body>
